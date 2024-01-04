@@ -1,14 +1,14 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from "react-router-dom"
-import Image1 from "../../assests/menu/cheese.gif"
+import Image1 from "../../assests/menu/crispy.jpg"
 import Image2 from "../../assests/menu/bacon.gif"
 import Image3 from "../../assests/menu/black.jpg"
 import Image4 from "../../assests/menu/vegan.jpg"
 import Image5 from "../../assests/menu/double.gif"
 import Image6 from "../../assests/menu/turkey.jpeg"
 import Image7 from "../../assests/menu/smokey.gif"
-import Image8 from "../../assests/menu/veggie.webp"
+import Image8 from "../../assests/menu/classic.jpg"
 import Cards from "../../components/Layouts/Cards"
 
 
@@ -16,8 +16,8 @@ const mockData = [
     {
       id: "0001",
       image: Image1,
-      title: "Cheese Pizza",
-      paragraph: " dry yeast, warm water, onion, tomato, capsicum, cheese",
+      title: "Crispy chicken",
+      paragraph: " chicken,dry yeast, warm water, onion, tomato, capsicum, cheese",
       rating: 5,
       price: 400,
     },
@@ -72,34 +72,32 @@ const mockData = [
     {
       id: "0008",
       image: Image8,
-      title: "Veggie Pizza",
-      paragraph: "red peppers, black olives, artichoke hearts, fresh basil leaves, and mozzarella cheese",
+      title: "classic burger",
+      paragraph: "cheddar cheese, ketchup, mustard, pickles, onion",
       rating: 2.0,
       price: 250,
     },
    
   ];
   
-  // Rating Logical Data
+  
   const renderRatingIcons = (rating) => {
     const stars = [];
   
     for (let i = 0; i < 5; i++) {
       if (rating > 0.5) {
-        stars.push(<i key={i} className="Fa FaRupeeSign 
-        "></i>);
+        stars.push(<i key={i} className="bi bi-star-fill"></i>);
         rating--;
       } else if (rating > 0 && rating < 1) {
-        stars.push(<i key={"half"} className="Fa FaRupeeSign />
-        "></i>);
+        stars.push(<i key={"half"} className="bi bi-star-half"></i>);
         rating--;
       } else {
-        stars.push(<i key={`empty Rs{i}`} className="Fa FaRupeeSign 
-        "></i>);
+        stars.push(<i key={`empty${i}`} className="bi bi-star"></i>);
       }
     }
     return stars;
   };
+  
 function Section3() {
   return (
     <>
@@ -114,7 +112,7 @@ function Section3() {
                 </Col>
             </Row>
             <Row>
-          {mockData.map((cardData, index) => (
+            {mockData.map((cardData, index) => (
             <Cards
               key={index}
               image={cardData.image}
@@ -125,6 +123,8 @@ function Section3() {
               renderRatingIcons={renderRatingIcons}
             />
           ))}
+
+
         </Row>
         <Row className="pt-5">
           <Col sm={6} lg={5}>

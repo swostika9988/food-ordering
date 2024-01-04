@@ -22,7 +22,7 @@ function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
 
           <div className="d-flex align-items-center justify-content-between">
             <div className="menu_price">
-              <h5 className="mb-0">${price}</h5>
+              <h5 className="mb-0">Rs.{price}</h5>
             </div>
             <div className="add_to_card">
               <Link to="/">

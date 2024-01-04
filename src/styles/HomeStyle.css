@@ -100,6 +100,7 @@
   .menu_section h2 {
     font-size: 3.5rem;
     color: var(--light-red);
+    text-align: center;
   }
   .menu_section .para {
     color: var(--grey);
@@ -168,28 +169,28 @@
     border-radius: 6px;
   }
   .menu_section .ads_img1 {
-    /* background: url("../assets/menu/ads-1.jpg") no-repeat center center; */
+    background: url("../assests/ads/fries.jpg") no-repeat center center;
     background-size: cover;
   }
   .menu_section .ads_img2 {
-    /* background: url("../assets/menu/ads-2.jpg") no-repeat center center; */
+    background: url("../assests/ads/burger.jpg") no-repeat center center;
     background-size: cover;
   }
   .menu_section .ads_box h4 {
     font-size: 2.25rem;
     font-weight: 300;
-    color: var(--brown);
+    color: var(--blue);
   }
   .menu_section .ads_box h5 {
     font-size: 2.375rem;
-    color: var(--brown);
+    color: var(--bg-coffee);
   }
   .menu_section .ads_box a {
     margin-top: 15px;
     font-size: 18px;
   }
   
-  /* Home Promotion 4.0 */
+  
   .promotion_section {
     padding-top: 60px;
     padding-bottom: 60px;
