@@ -14,25 +14,25 @@ function Section4() {
             <Col lg={6} className="px-5">
               <h2>Nothing brings people together like a good burger</h2>
               <p>
-                Semper lacus cursus porta primis ligula risus tempus and
-                sagittis ipsum mauris lectus laoreet purus ipsum tempor enim
-                ipsum porta justo integer ultrice aligula lectus aenean magna
-                and pulvinar purus at pretium gravida
+              Burgers are iconic, aren't they? These delicious sandwiches typically consist of a cooked patty made from ground meat (commonly beef), placed between slices of a bun. They're often accompanied by various toppings like lettuce, tomatoes, onions, cheese, pickles, and sauces, creating a flavorful and satisfying meal.
               </p>
               <ul>
                 <li>
                   <p>
-                    Fringilla risus, luctus mauris orci auctor purus euismod
-                    pretium purus pretium ligula rutrum tempor sapien
+                  The patty in a burger is usually made from meat, which is a great source of protein. Proteins are essential for building and repairing tissues in the body.
                   </p>
                 </li>
                 <li>
-                  <p>Quaerat sodales sapien euismod purus blandit</p>
+                  <p> Burgers can incorporate various vegetables and condiments, offering a mix of nutrients. Adding lettuce, tomatoes, onions, and even avocado can contribute vitamins, minerals, and dietary fiber to the meal.</p>
                 </li>
                 <li>
                   <p>
-                    Nemo ipsam egestas volute turpis dolores ut aliquam quaerat
-                    sodales sapien undo pretium a purus mauris
+                  The carbohydrates in the bun provide energy, helping to fuel your body and keep you going throughout the day.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                  Food isn't just about nutrients; it's also about pleasure and enjoyment. Eating a burger you love can boost your mood and provide a sense of satisfaction.
                   </p>
                 </li>
               </ul>
